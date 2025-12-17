@@ -4,7 +4,7 @@ import loginphoto from "../assets/login.webp";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { loginUser } from "../redux/slices/authSlice";
 
-const login = () => {
+const Login = () => {
   const dispatch = useDispatch(); // FIXED position
 
   const [email, setEmail] = useState("");
@@ -105,4 +105,4 @@ const login = () => {
   );
 };
 
-export default login;
+export default Login;
